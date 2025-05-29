@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title> Medicio Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="static/img/favicon.png" rel="icon">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+
+  <!-- Main CSS File -->
+  <link href="static/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Medicio
+  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="d-none d-md-flex align-items-center">
+          <i class="bi bi-clock me-1"></i> Monday - Sunday, 24h
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-phone me-1"></i> 
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-end">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img src="static/img/logo.png" alt="">
+          <!-- Uncomment the line below if you also wish to use a text logo -->
+          <!-- <h1 class="sitename">Medicio</h1>  -->
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#featured-services">Services</a></li>
+            <li><a href="#doctors">Developers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+ <a class="cta-btn" href="#" onclick="toggleChatbot()">Ask Your Assistant </a>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <div class="carousel-item active">
+          <img src="static/img/hero-carousel/hero-carousel-1.jpg" alt="">
+          <div class="container">
+            <h2>Welcome to Medicio</h2>
+            <p> Your Cancer treatement Assistant</p>
+            <a href="#about" class="btn-get-started">Read More</a>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <div class="carousel-item">
+          <img src="static/img/hero-carousel/hero-carousel-2.jpg" alt="">
+          <div class="container">
+           <h2>Welcome to Medicio</h2>
+            <p> Your Cancer treatement Assistant</p>
+            <a href="#about" class="btn-get-started">Read More</a>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <div class="carousel-item">
+          <img src="static/img/hero-carousel/hero-carousel-3.jpg" alt="">
+          <div class="container">
+            <h2>Welcome to Medicio</h2>
+            <p> Your Cancer treatement Assistant</p>
+            <a href="#about" class="btn-get-started">Read More</a>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+        <ol class="carousel-indicators"></ol>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Featured Services Section -->
+    <section id="featured-services" class="featured-services section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fas fa-heartbeat icon"></i></div>
+              <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fas fa-pills icon"></i></div>
+              <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fas fa-thermometer icon"></i></div>
+              <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fas fa-dna icon"></i></div>
+              <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Featured Services Section -->
+
+    
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us<br></h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+            <img src="static/img/about.jpg" class="img-fluid" alt="">
+            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+          </div>
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+            </ul>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <div class="container">
+
+        <div class="row justify-content-around gy-4">
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="static/img/features.jpg" alt=""></div>
+
+          <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+              <i class="fa-solid fa-hand-holding-medical flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+              <i class="fa-solid fa-suitcase-medical flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
+              <i class="fa-solid fa-staff-snake flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Dine Pad</a></h4>
+                <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
+              <i class="fa-solid fa-lungs flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Tride clov</a></h4>
+                <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+<div id="chatbot-wrapper" class="chatbot-hidden">
+    <div class="sidebar">
+      <h2>HealthCare Chatbot</h2>
+       <div class="sidebar-content">
+            <p>Welcome to our AI-powered healthcare assistant. Feel free to ask any health-related questions or describe your symptoms.</p>
+        </div>
+        <div class="health-tips">
+            <h3>Quick Health Tips</h3>
+            <ul>
+                <li>Stay hydrated</li>
+                <li>Get enough sleep</li>
+                <li>Exercise regularly</li>
+                <li>Eat a balanced diet</li>
+            </ul>
+        </div>
+    </div>
+    <div class="chat-container">
+        <div class="chat-header">
+            Chat with HealthCare Bot
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                Hello! I'm your healthcare assistant. How can I help you today?
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type your message here...">
+            <button id="sendButton">Send</button>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            let sessionId = Date.now().toString();
+    
+            function addMessage(message, isUser) {
+                const messageDiv = $('<div>').addClass('message').text(message);
+                if (isUser) {
+                    messageDiv.addClass('user-message');
+                } else {
+                    messageDiv.addClass('bot-message');
+                }
+                $('#chatMessages').append(messageDiv);
+                $('#chatMessages').scrollTop($('#chatMessages')[0].scrollHeight);
+            }
+    
+            function sendMessage(message) {
+                $.ajax({
+                    url: '/chatbot',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({ message: message, session_id: sessionId }),
+                    success: function(response) {
+                        addMessage(response.response, false);
+    
+                        if (response.response.includes("Are you currently at Ganpat University campus?")) {
+                            addMessage("If yes, would you like to book an appointment at the Guni Health Clinic? (Yes/No)", false);
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        addMessage("Error: " + error, false);
+                    }
+                });
+            }
+    
+            function bookAppointment(time) {
+                $.ajax({
+                    url: '/book_appointment',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({ 
+                        session_id: sessionId,
+                        preferred_time: time
+                    }),
+                    success: function(response) {
+                        addMessage(response.response, false);
+                        if (response.response.includes("Would you like to book this slot?")) {
+                            addMessage("Please respond with 'Yes' to confirm the suggested slot, or provide another time.", false);
+                        }
+                    },
+                    error: function(xhr, status, error) {
+                        addMessage("Error booking appointment: " + error, false);
+                    }
+                });
+            }
+    
+            // Initial message
+            addMessage("Hello! I'm your healthcare assistant. What should I call you?", false);
+    
+            $('#sendButton').click(function() {
+                const userInput = $('#userInput').val().trim();
+                if (userInput === '') return;
+    
+                addMessage(userInput, true);
+                $('#userInput').val('');
+    
+                if (userInput.toLowerCase() === 'yes' && $('#chatMessages').text().includes("would you like to book an appointment")) {
+                    addMessage("Great! Please provide a preferred time for your appointment (HH:MM):", false);
+                } else if (userInput.match(/^\d{2}:\d{2}$/)) {
+                    bookAppointment(userInput);
+                } else {
+                    sendMessage(userInput);
+                }
+            });
+    
+            $('#userInput').keypress(function(e) {
+                if (e.which == 13) {
+                    $('#sendButton').click();
+                }
+            });
+        });
+    </script>
+
+    
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="doctors section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Doctors</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="static/img/doctors/doctors-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Walter White</h4>
+                <span>Chief Medical Officer</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="static/img/doctors/doctors-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sarah Jhonson</h4>
+                <span>Anesthesiologist</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="static/img/doctors/doctors-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>William Anderson</h4>
+                <span>Cardiology</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="static/img/doctors/doctors-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Amanda Jepson</h4>
+                <span>Neurosurgeon</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Doctors Section -->
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Gallery</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "centeredSlides": true,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 0
+                },
+                "768": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                },
+                "1200": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="static/img/gallery/gallery-1.jpg"><img src="static/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="static/img/gallery/gallery-2.jpg"><img src="static/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="static/img/gallery/gallery-3.jpg"><img src="static/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="static/img/gallery/gallery-4.jpg"><img src="static/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="static/img/gallery/gallery-5.jpg"><img src="static/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="static/img/gallery/gallery-6.jpg"><img src="static/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="static/img/gallery/gallery-7.jpg"><img src="static/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="static/img/gallery/gallery-8.jpg"><img src="static/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Gallery Section 
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6 ">
+            <div class="row gy-4">
+
+              <div class="col-lg-12">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@example.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+   
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Medicio</strong> <span>All Rights Reserved 2025</span></p>
+     
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/vendor/php-email-form/validate.js"></script>
+  <script src="static/vendor/aos/aos.js"></script>
+  <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
+  <script>
+  function toggleChatbot() {
+    document.getElementById('chatbot-wrapper')
+            .classList.toggle('chatbot-hidden');
+  }
+</script>
+
+
+  <!-- Main JS File -->
+  <script src="static/js/main.js"></script>
+
+</body>
+
+</html>
